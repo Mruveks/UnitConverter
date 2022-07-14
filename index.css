@@ -1,3 +1,10 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 3.2rem;
+}
+
 .inputs{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -18,11 +25,7 @@
     
 }
 
-.length_converter, 
-.mass_converter,
-.capacity_converter{
-    margin: 0 auto;
-    margin-top: 2rem;
+.converter{
     padding: 1rem;
     background-color: #333;
     border-radius: 25px;

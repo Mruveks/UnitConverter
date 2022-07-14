@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="length_converter">
+    <div class="converter">
         <h1>Length Converter</h1>
 
         <div class="inputs">
@@ -38,7 +38,7 @@
             <input type="text" placeholder="result" id="result">
         </div>
     </div>
-    <div class="mass_converter">
+    <div class="converter">
         <h1>Mass Converter</h1>
 
         <div class="inputs">
@@ -68,7 +68,7 @@
             <input type="text" placeholder="result" id="result2">
         </div>
     </div>
-    <div class="capacity_converter">
+    <div class="converter">
         <h1>Capacity Converter</h1>
 
         <div class="inputs">
@@ -98,8 +98,99 @@
             <input type="text" placeholder="result" id="result3">
         </div>
     </div>
+    <div class="converter">
+        <h1>Crypto => USD converter</h1>
+
+        <div class="inputs">
+            <select id="inputType4">
+                <option value="btc">Bitcoin</option>
+                <option value="eth">Ethereum</option>
+                <option value="avax">Avalanche</option>
+                <option value="sol">Solana</option>
+                <option value="matic">Polygon</option>
+                <option value="ada">Cardano</option>
+                <option value="doge">Doge</option>
+            </select>
+
+            <select id="resultType4">
+                <option value="usd">USD</option>
+                <option value="eur">EUR</option>
+                <option value="gbp">GBP</option>
+                <option value="yen">YEN</option>
+                <option value="pln">PLN</option>
+                <option value="chf">CHF</option>
+                <option value="rub">RUB</option>
+            </select>
+        </div>
+        <div class="result">
+            <input type="text" placeholder="input" id="input4">
+            <span>=</span>
+            <input type="text" placeholder="result" id="result4">
+        </div>
+    </div>
+    <div class="converter">
+        <h1>Temperature Converter</h1>
+
+        <div class="inputs">
+            <select id="inputType5">
+                <option value="celcius">Celcius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+
+            <select id="resultType5">
+                <option value="celcius">Celcius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+        </div>
+        <div class="result">
+            <input type="text" placeholder="input" id="input5">
+            <span>=</span>
+            <input type="text" placeholder="result" id="result5">
+        </div>
+    </div>
+    <div class="converter">
+        <h1>Time Converter</h1>
+
+        <div class="inputs">
+            <select id="inputType6">
+                <option value="millennium">Millennium</option>
+                <option value="century">Century</option>
+                <option value="decade">Decade</option>
+                <option value="year">Year</option>
+                <option value="month">Month</option>
+                <option value="week">Week</option>
+                <option value="day">Day</option>
+                <option value="hour">Hour</option>
+                <option value="minute">Minute</option>
+                <option value="second">Second</option>
+            </select>
+
+            <select id="resultType6">
+                <option value="millennium">Millennium</option>
+                <option value="century">Century</option>
+                <option value="decade">Decade</option>
+                <option value="year">Year</option>
+                <option value="month">Month</option>
+                <option value="week">Week</option>
+                <option value="day">Day</option>
+                <option value="hour">Hour</option>
+                <option value="minute">Minute</option>
+                <option value="second">Second</option>
+            </select>
+        </div>
+        <div class="result">
+            <input type="text" placeholder="input" id="input6">
+            <span>=</span>
+            <input type="text" placeholder="result" id="result6">
+        </div>
+    </div>
 <script src="./CapacityConverter.js"></script>
 <script src="./LengthConverter.js"></script>
 <script src="./MassConverter.js"></script>
+<script src="./CryptoConverter.js"></script>
+<script src="./TemperatureConverter.js"></script>
+<script src="./TimeConverter.js"></script>
 </body>
 </html>
